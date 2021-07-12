@@ -1,0 +1,50 @@
+@-webkit-keyframes sliding {
+    0%{
+        
+        left: 0;
+    }
+    30%{
+        transform: translate(200px,440px);
+       
+        
+    }
+    70%{
+        transform: translate(350px,-30px);
+        
+    }
+    100%{
+        transform: translate(680px,300px);
+
+    }
+    
+
+}
+
+
+.scr{
+
+    margin-top: 5%;
+    margin-left: 25%;
+    width:700px;
+    height: 500px;
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.basket img {
+    width: 40%;
+    margin-left: 480px;
+    margin-top: 100px;
+    
+   
+
+}
+.ball img{
+    width: 70px;
+    height: 70px;
+    -webkit-animation: sliding 2s ease-in-out 0.2s infinite alternate;
+    animation-play-state: running;
+    position: relative;
+    
+}
